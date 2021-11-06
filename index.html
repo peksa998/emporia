@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Moderna Bootstrap Template - Index</title>
+  <title>Emporia</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -71,11 +71,11 @@
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
 
     <video id="video1"  muted loop autoplay>
-      <source src="assets/img/v-1.mp4" type="video/mp4">
+      <source src="assets/img/video/v-hero-mob.mp4" type="video/mp4">
     </video>
 
     <video id="video2"  muted loop autoplay>
-      <source src="assets/img/v-2.mp4" type="video/mp4">
+      <source src="assets/img/video/v-hero-desk.mp4" type="video/mp4">
     </video>
 
 
@@ -150,9 +150,38 @@
       <div class="container">
 
         <div class="row">
+          
           <div class="col-lg-6 video-box">
-            <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+
+           <!-- VIDEO -->
+           
+           <video id="video-about" class="v-about" onclick="playVid()">
+            <source src="assets/img/video/video-about.mp4" type="video/mp4">
+          </video>
+
+          <a id="playDugme" onclick="playVid()" type="button" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+
+          <script> 
+            var vid = document.getElementById("video-about");
+            var x = document.getElementById("playDugme");
+            var pom = 0; // vid pause
+            
+            function playVid() {
+
+              if (pom === 0) {
+                vid.play();
+                x.style.display = "none";
+                pom = 1; // vid play
+              } else {
+                vid.pause();
+                x.style.display = "block";
+                pom = 0;
+              }
+            } 
+
+          </script>
+
+          <!-- VIDEO END -->
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
