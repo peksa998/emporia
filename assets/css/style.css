@@ -25,6 +25,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
+
 }
 
 /*--------------------------------------------------------------
@@ -742,6 +743,16 @@ section {
 .clients .swiper-slide img:hover {
   opacity: 1;
   filter: none;
+}
+
+.tbox-l {
+  background: url(../img/textbox2.png) center center no-repeat;
+  background-size: cover;
+}
+
+.tbox-r {
+  background: url(../img/textbox2.png) center center no-repeat;
+  background-size: cover;
 }
 
 /*--------------------------------------------------------------
