@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #25aae1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #45beff;
+  color: #ca3293;
   text-decoration: none;
 }
 
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #header.header-scrolled {
   background: rgba(35, 31, 32, 0.9);
-  height: 60px;
+  height: 70px;
 }
 #header .logo h1 {
   font-size: 28px;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a2cce3;
+  color: #25aae1;
 }
 .navbar .dropdown ul {
   display: block;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #68A4C4;
+  color: #25aae1;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -628,7 +628,7 @@ section {
   overflow: hidden;
   margin: 0 0 40px 0;
   background: #fff;
-  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  box-shadow: 0 5px 26px 0 rgba(202, 50, 147, 0.15);
   transition: all 0.3s ease-in-out;
   text-align: center;
   border: 3px solid #fff;
@@ -674,8 +674,8 @@ section {
 .services .icon-box-cyan .icon i {
   color: #3fcdc7;
 }
-.services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
+.services .icon-box-blue:hover {
+  border-color: #25aae1;
 }
 .services .icon-box-green .icon {
   background: #eafde7;
@@ -716,8 +716,12 @@ section {
 # Clients
 --------------------------------------------------------------*/
 
+#clients {
+  padding-bottom: 30px;
+}
+
 .clients .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 50px;
   position: relative;
 }
 .clients .swiper-pagination .swiper-pagination-bullet {
@@ -762,11 +766,11 @@ section {
   transition: 0.5s;
 }
 .why-us .icon-box .icon i {
-  color: #68A4C4;
+  color: #ca3293;
   font-size: 32px;
 }
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+  background: #ca3293;
 }
 .why-us .icon-box:hover .icon i {
   color: #fff;
@@ -783,7 +787,7 @@ section {
   transition: 0.3s;
 }
 .why-us .icon-box .title a:hover {
-  color: #68A4C4;
+  color: #ca3293;
 }
 .why-us .icon-box .description {
   margin-left: 95px;
@@ -800,7 +804,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#68A4C4 50%, rgba(104, 164, 196, 0.4) 52%);
+  background: radial-gradient(#ca3293 50%, rgba(214, 89, 169, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -839,13 +843,13 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(104, 164, 196, 0.7);
+  border: 5px solid rgba(214, 89, 169, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #68A4C4;
+  border-left: 15px solid #ca3293;
   transform: scale(20);
 }
 .why-us .play-btn:hover::before {
@@ -1102,16 +1106,16 @@ section {
   transition: 0.3s;
 }
 .service-details .read-more a:hover {
-  color: #68A4C4;
+  color: #25aae1;
 }
 .service-details .card:hover img {
   transform: scale(1.1);
 }
 .service-details .card:hover .card-body {
-  border-color: #68A4C4;
+  border-color: #25aae1;
 }
 .service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
+  color: #25aae1;
 }
 
 /*--------------------------------------------------------------
@@ -1423,10 +1427,10 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #ca3293;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #a2cce3;
+  border: 2px dotted #ca3293;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -1497,14 +1501,14 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #68A4C4;
+  background: #ca3293;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #8dbad2;
+  background: #d659a9;
 }
 @-webkit-keyframes animate-loading {
   0% {
