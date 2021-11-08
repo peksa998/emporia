@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo1prema1.png" rel="icon">
+  <link href="assets/img/logo1prema1.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
@@ -91,7 +91,7 @@
   </section><!-- End Hero -->
 
     <!-- ======= About Us Section ======= -->
-    <section class="about-us">
+    <section id="about" class="about-us">
       <div class="container">
 
         <div class="section-title">
@@ -117,16 +117,18 @@
         </div>
 
         <div class="row">
-          
-          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up">
-            <div class="icon-box icon-box-purple">
-              <a href="digital-marketing.html"><img class="ikonica" src="assets/img/icon/dm.png" alt=""></a>
-              <h4 class="title"><a href="digital-marketing.html">Digital Marketing</a></h4>
-              <p class="description">Social media marketing <br>Content creation <br> Community management <br>Advertising</p>
-            </div>
-          </div>
 
-          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="col-md-6 col-lg-3 align-items-stretch " data-aos="fade-up" style="cursor: pointer;" onclick="window.location='digital-marketing.html';">
+              <div class="icon-box icon-box-blue">
+                <a href="digital-marketing.html"><img class="ikonica" src="assets/img/icon/dm.png" alt=""></a>
+                <h4 class="title"><a href="digital-marketing.html">Digital Marketing</a></h4>
+                <p class="description">Social media marketing <br>Content creation <br> Community management <br>Advertising</p>
+              </div>
+            </div>
+
+
+          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="100" style="cursor: pointer;" onclick="window.location='web-development.html';">
             <div class="icon-box icon-box-purple">
               <a href="web-development.html"><img class="ikonica" src="assets/img/icon/wd.png" alt=""></a>
               <h4 class="title"><a href="web-development.html">Web development</a></h4>
@@ -134,15 +136,15 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon-box icon-box-purple">
+          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;" onclick="window.location='media-production.html';">
+            <div class="icon-box icon-box-blue">
               <a href="media-production.html"><img class="ikonica" src="assets/img/icon/vp.png" alt=""></a>
               <h4 class="title"><a href="media-production.html">Media production</a></h4>
               <p class="description">Photography <br>Video production <br>Video editing <br>Professional retouching <br>Commercial video <br>Social media video</p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-6 col-lg-3 align-items-stretch" data-aos="fade-up" data-aos-delay="200" style="cursor: pointer;" onclick="window.location='graphic-design.html';">
             <div class="icon-box icon-box-purple">
               <a href="graphic-design.html"><img class="ikonica" src="assets/img/icon/gd.png" alt=""></a>
               <h4 class="title"><a href="graphic-design.html">Graphic design</a></h4>
@@ -157,6 +159,12 @@
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
+
+      <div class="section-title">
+        <h2>Our clients</h2>
+      </div>
+
+
       <div class="container" data-aos="zoom-in">
 
         <div class="clients-slider swiper">
@@ -187,7 +195,7 @@
            <!-- VIDEO -->
            
            <video id="video-about" class="v-about" onclick="playVid()">
-            <source src="assets/img/video/video-about.mp4" type="video/mp4">
+            <source src="assets/img/video/emporia-vaznost.mp4" type="video/mp4">
           </video>
 
           <a id="playDugme" onclick="playVid()" type="button" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
@@ -219,15 +227,11 @@
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title">Why us?</h4>
+              <p class="description">The individuals in charge of daily campaign management, the tools they use, and their drive are what distinguishes mediocrity from brilliance among digital marketing organizations. We are getting direct support from senior digital marketing specialists, and employ cutting-edge marketing software and tools. This combination is the key to our long-term dedication, drive, and high-quality services.</p>
+
             </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
 
           </div>
         </div>
