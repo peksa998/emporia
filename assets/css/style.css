@@ -581,7 +581,7 @@ section {
 --------------------------------------------------------------*/
 .about-us{
   height: 100vh;
-  background: url("../img/blue-bg-10.jpg") center center no-repeat;
+  background: url("../img/pocetnagrad.jpg") center center no-repeat;
   background-position: bottom;
   background-size: cover;
 }
@@ -614,6 +614,15 @@ section {
   background: #d659a9;
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .about-us{
+    height: 100vh;
+    background: url("../img/abouttelefon.jpg") center center no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
 }
 
 
