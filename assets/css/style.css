@@ -25,6 +25,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
+
 }
 
 /*--------------------------------------------------------------
@@ -111,11 +112,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #231F20;
+  background: rgba(35, 31, 32, 0.9);
 }
-#header.header-transparent {
-  background: none;
-}
+/* #header.header-transparent {
+   background: none;
+} */
 #header.header-scrolled {
   background: rgba(35, 31, 32, 0.9);
   height: 70px;
@@ -580,7 +581,7 @@ section {
 --------------------------------------------------------------*/
 .about-us{
   height: 100vh;
-  background: url("../img/blue-bg-10.png") center center no-repeat;
+  background: url("../img/blue-bg-10.jpg") center center no-repeat;
   background-position: bottom;
   background-size: cover;
 }
@@ -744,6 +745,16 @@ section {
   filter: none;
 }
 
+.tbox-l {
+  background: url(../img/textbox2.png) center center no-repeat;
+  background-size: cover;
+}
+
+.tbox-r {
+  background: url(../img/textbox2.png) center center no-repeat;
+  background-size: cover;
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -754,6 +765,17 @@ section {
 .why-us .icon-box + .icon-box {
   margin-top: 50px;
 }
+
+.why-us .ikonica-w {
+  float: left;
+  display: flex;
+  width: 72px;
+  height: 72px;
+  border-radius: 6px;
+  background-image: url(../img/logo1prema1.png) center center no-repeat;
+  background-size: cover;
+}
+
 .why-us .icon-box .icon {
   float: left;
   display: flex;
