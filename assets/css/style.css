@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: pirulen;
+  src: url(../fonts/pirulen\ rg.otf);
+}
+@font-face {
+  font-family: Oxanium;
+  src: url(../fonts/Oxanium-VariableFont_wght.ttf);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -30,7 +39,15 @@ h4,
 h5,
 h6,
 .font-primary {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: pirulen;
+}
+
+p,
+a {
+  font-family: Oxanium, serif;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -119,6 +136,10 @@ h6,
   transition: all 0.5s;
   background: rgba(35, 31, 32, 0.9);
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+#header a {
+  font-family: pirulen;
 }
 /* #header.header-transparent {
    background: none;
@@ -631,6 +652,14 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+/* #about .section-title {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #000;
+  border-radius: 10px;
+} */
 .about-us {
   height: 100vh;
   background: url("../img/grad.jpg") center center no-repeat;
@@ -647,7 +676,7 @@ section {
 }
 
 .about-us .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: pirulen, sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1030,6 +1059,17 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+/* DODATO - PROVERI ISPRAVNOST */
+.features .shadow-box-r {
+  /* box-shadow: -1em 10px 10px 10px rgba(0, 0, 0, 0.5); */
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+.features .shadow-box-l {
+  box-shadow: -1em 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+
 .features .row + .row {
   margin-top: 30px;
 }
