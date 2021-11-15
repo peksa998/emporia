@@ -1063,10 +1063,12 @@ section {
 .features .shadow-box-r {
   /* box-shadow: -1em 10px 10px 10px rgba(0, 0, 0, 0.5); */
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 .features .shadow-box-l {
-  box-shadow: -1em 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: -10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
