@@ -628,7 +628,7 @@ section {
 --------------------------------------------------------------*/
 .about-us {
   height: 100vh;
-  background: url("../img/pocetnagrad.jpg") center center no-repeat;
+  background: url("../img/grad.jpg") center center no-repeat;
   background-position: bottom;
   background-size: cover;
 }
@@ -774,10 +774,24 @@ section {
 
 #clients {
   padding-bottom: 30px;
+  /* background-image: linear-gradient(#25aae1, #ca3293); */
+  /* background-image: linear-gradient(rgb(37, 170, 225), rgb(202, 50, 147)); */
+  background-image: linear-gradient(
+    rgba(37, 170, 225, 0.9),
+    rgba(202, 50, 147, 0.9)
+  );
+  padding-top: 30px;
+  border-top: 4px solid #ca3293;
+}
+
+.clients .clients-slider {
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .clients .swiper-pagination {
-  margin-top: 50px;
+  margin-top: 40px;
   position: relative;
 }
 .clients .swiper-pagination .swiper-pagination-bullet {
@@ -785,19 +799,25 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ca3293;
+  border: 1px solid #25aae1;
 }
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ca3293;
+  background-color: #25aae1;
 }
 .clients .swiper-slide img {
-  opacity: 0.5;
-  transition: 0.3s;
-  filter: grayscale(100);
-}
-.clients .swiper-slide img:hover {
   opacity: 1;
-  filter: none;
+  transition: 0.3s;
+  /* filter: grayscale(100); */
+}
+
+@media (min-width: 767px) {
+  .clients .swiper-slide img:hover {
+    opacity: 1;
+    filter: none;
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3);
+  }
 }
 
 .tbox-l {
@@ -974,14 +994,14 @@ section {
   height: 100%;
 }
 
-#iframe-container {
+.iframe-container {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
 }
 
-#iframe-container iframe {
+.iframe-container iframe {
   position: absolute;
   top: 0;
   left: 0;
