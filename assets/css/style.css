@@ -319,7 +319,7 @@ a {
   bottom: 15vh;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #231f20;
   overflow-y: auto;
   transition: 0.3s;
   border: 3px solid #ca3293;
@@ -330,7 +330,7 @@ a {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 18px;
-  color: #1e4356;
+  color: #fff;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
@@ -349,7 +349,7 @@ a {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #231f20;
   box-shadow: 0px 0px 30px rgba(35, 31, 32, 0.3);
 }
 .navbar-mobile .dropdown ul li {
@@ -358,6 +358,7 @@ a {
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
   font-size: 15px;
+  color: #fff;
 }
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
