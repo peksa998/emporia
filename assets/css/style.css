@@ -745,7 +745,7 @@ section {
   color: #111;
 }
 .services .description {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -800,6 +800,14 @@ section {
   .services .icon-box {
     min-height: 400px;
   }
+}
+
+.text-levo {
+  text-align: left;
+}
+
+.p-20 {
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1056,6 +1064,12 @@ section {
   height: 100%;
 }
 
+.description-whyUs {
+  margin-left: 95px;
+  line-height: 24px;
+  font-size: 18px;
+}
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -1116,6 +1130,16 @@ section {
 }
 .about p:last-child {
   margin-bottom: 0;
+}
+
+.aboutUs-text {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .aboutUs-text {
+    text-align: center;
+  }
 }
 
 /*--------------------------------------------------------------
