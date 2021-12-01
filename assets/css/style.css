@@ -373,15 +373,30 @@ a {
 
 /* language */
 
-#language {
-  font-size: 12px;
+#language a {
+  font-size: 11px;
 }
 
-/* #language a {
-  font-family: Oxanium, serif;
-  font-weight: 600;
-  font-size: 16px;
-} */
+@media (min-width: 769px) {
+  #language {
+    border-left: 1px solid #fff;
+    margin-left: 20px;
+    border-right: 1px solid #fff;
+  }
+
+  #language a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #language {
+    border-top: 2px solid #25aae1;
+    border-bottom: 2px solid #25aae1;
+    margin-top: 15px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
